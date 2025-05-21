@@ -1,0 +1,149 @@
+<!-- Início do documento HTML -->
+<html>
+<head>
+  <!-- Título que aparece na aba do navegador -->
+  <TITLE>CURRICULO DE AMANDA SANTOS SILVA</TITLE>
+</head>
+
+<!-- Cor de fundo do corpo da página antiga (desnecessário pois há CSS depois) -->
+<BODY BGCOLOR=WHITE>
+
+<!-- Comando antigo para tocar música de fundo (não é mais suportado pela maioria dos navegadores) -->
+<BGSOUND SRC=mp3.MP3>
+
+<!-- Declaração do tipo do documento e idioma da página -->
+<!DOCTYPE html> <!-- Diz ao navegador que o documento segue o padrão HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+
+<head>
+  <!-- Define a codificação de caracteres (acentuação, cedilha, etc.) -->
+  <meta charset="UTF-8">
+
+  <!-- Título novamente, mais atualizado -->
+  <title>CURRÍCULO DE AMANDA SANTOS SILVA</title>
+
+  <!-- Importa a fonte 'Poppins' do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Início do estilo CSS -->
+  <style>
+    body {
+      background-image: url("fundo.jpg"); /* Define imagem de fundo */
+      background-size: cover; /* Faz a imagem cobrir toda a tela */
+      background-repeat: no-repeat; /* Não repetir a imagem */
+      background-attachment: fixed; /* Fundo fixo mesmo ao rolar a página */
+      font-family: 'Poppins', sans-serif; /* Usa a fonte Poppins */
+      color: #333; /* Cor do texto padrão */
+      padding: 20px; /* Espaçamento interno */
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.85); /* Fundo branco translúcido */
+      padding: 30px;
+      border-radius: 15px; /* Cantos arredondados */
+      max-width: 800px; /* Largura máxima */
+      margin: auto; /* Centraliza o bloco */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra ao redor */
+    }
+
+    h1, h2, h3 {
+      color: #8B0066; /* Cor roxa para títulos */
+      margin-top: 20px; /* Espaço acima dos títulos */
+    }
+
+    ul {
+      list-style-type: square; /* Marcadores quadrados nas listas */
+      padding-left: 20px; /* Espaço antes dos itens da lista */
+    }
+
+    img {
+      border-radius: 50%; /* Foto redonda */
+    }
+
+    a {
+      color: #B22284; /* Cor dos links */
+      text-decoration: none; /* Sem sublinhado */
+    }
+
+    a:hover {
+      text-decoration: underline; /* Sublinhado ao passar o mouse */
+    }
+
+    marquee {
+      font-weight: bold; /* Negrito no texto que se move */
+      color: #B22284;
+    }
+
+    hr {
+      border: 1px solid #8B0066; /* Linha roxa para separar seções */
+    }
+
+    audio {
+      margin-top: 20px;
+      width: 100%; /* Toca música em toda a largura do bloco */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Bloco principal com fundo branco e conteúdo centralizado -->
+  <div class="container">
+
+    <!-- Título centralizado -->
+    <h1 align="center">CURRICULUM VITAE</h1>
+
+    <!-- Foto centralizada -->
+    <center><img src="Imagem.jpg" width="150" alt="Foto de Amanda"></center>
+
+    <!-- Nome em movimento (efeito marquee) -->
+    <marquee><h2>AMANDA SANTOS SILVA</h2></marquee>
+
+    <hr> <!-- Linha horizontal para separar seções -->
+
+    <!-- Dados pessoais -->
+    <h3><i>DADOS PESSOAIS:</i></h3>
+    <ul>
+      <li>ENDEREÇO: Rua Salvador, 55, Centro</li>
+      <li>CELULAR: (75) 98863-4292</li>
+      <li>EMAIL: amandasantos1460@gmail.com</li>
+    </ul>
+
+    <!-- Escolaridade -->
+    <h3><i>ESCOLARIDADE:</i></h3>
+    <ul>
+      <li>Técnico de Enfermagem - 
+        <a href="https://www.instagram.com/cetep.lnab?igsh=MTVoenVkYTFobWI2aQ==" target="_blank">CETEP</a>
+      </li>
+      <li>Engenharia de Produção - 
+        <a href="https://www.fsssacramento.br" target="_blank">F.S.S.S</a> - EM CURSO
+      </li>
+    </ul>
+
+    <!-- Cursos extras -->
+    <h3><i>CURSOS EXTRAS:</i></h3>
+    <ul>
+      <li>Assistente Administrativo - 
+        <a href="https://www.senaibahia.com.br/" target="_blank">SENAI</a> - 3 meses
+      </li>
+      <li>Assistente de RH - 
+        <a href="https://www.senaibahia.com.br/" target="_blank">SENAI</a> - 3 meses
+      </li>
+    </ul>
+
+    <!-- Experiências profissionais -->
+    <h3><i>EXPERIÊNCIAS PROFISSIONAIS:</i></h3>
+    <ul>
+      <li>Operadora de Caixa - Mercado Super Glória (1 ano e 4 meses)</li>
+      <li>Técnica de Enfermagem - PSF Deus Menino (6 meses)</li>
+    </ul>
+
+    <hr> <!-- Linha horizontal -->
+
+    <!-- Áudio com controles -->
+    <audio controls>
+      <source src="mp3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</body>
+</html>
+
